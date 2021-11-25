@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	fs "go-commons/io"
+	"go-commons/regex"
 )
 
 func main() {
-	fmt.Println(fs.CopyDir("D:\\autotest", "D:\\11111", true))
+	fmt.Println(regex.ContainerChinese("aaaaaa"))
 }
