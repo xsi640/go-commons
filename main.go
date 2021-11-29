@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"go-commons/regex"
+	"go-commons/strings"
 )
 
 func main() {
-	fmt.Println(regex.ContainerChinese("aaaaaa"))
+	fmt.Println(strings.Random(10, true, true))
 }
